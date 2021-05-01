@@ -1,9 +1,9 @@
 window.addEventListener('load', () => {
 
-    // //проверяем надо ли показывать наш слайдер
-    // if (localStorage.getItem('showElement') === 'false'){
-    //     return;
-    // }
+    //проверяем надо ли показывать наш слайдер
+    if (localStorage.getItem('showElement') === 'false'){
+        return;
+    }
 
     //время ожидания
     const hidden_time = 5000;
