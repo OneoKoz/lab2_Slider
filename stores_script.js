@@ -35,7 +35,7 @@ window.addEventListener('load', () => {
     //"больше не показывать"
     const disableTips = document.getElementById('checkboxId');
     disableTips.addEventListener('click', function () {
-        localStorage.setItem('showElement', false);
+        localStorage.setItem('showElement', !this.checked);
     });
 
     //окно с инфой
