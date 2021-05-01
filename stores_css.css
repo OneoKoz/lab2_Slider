@@ -1,0 +1,193 @@
+/* CSS Document */
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("images/nastol.com.ua-268847 копия.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+/*Header+++++++++++++++++*/
+.header {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(0, 19, 15);
+    text-align: right;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    width: 95%;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+.top_link {
+    margin-left: 2%;
+    color: #ddefef;
+    text-decoration: none;
+}
+
+.top_link:hover {
+    color: rgb(12, 96, 79);
+    text-decoration: underline;
+}
+
+/*название+++++++++++++++++*/
+.title {
+    color: #ddefef;
+    font-size: 7vw;
+    text-align: center;
+    text-shadow: 2px 3px rgb(24, 24, 24);
+    letter-spacing: 2vw;
+
+    margin-bottom: 0;
+    line-height: 80px;
+}
+
+.title_line {
+    color: #ddefef;
+    font-size: 2vw;
+    text-align: center;
+    text-shadow: 2px 3px rgb(24, 24, 24);
+
+    margin-top: 0;
+}
+
+/*содержание+++++++++++++++++*/
+
+.images {
+    display: block;
+    margin: 5% auto;
+    border: 10px solid #ddefef;
+}
+
+.images:hover {
+    width: 62%;
+    border: 10px solid rgb(39, 100, 93);
+}
+
+/*_______ELEMENT_________*/
+.back_element {
+    position: fixed;
+    top: 5vw;
+    right: 2vw;
+    width: 35vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_body_element {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcf1ae6;
+    width: 100%;
+    height: 85%;
+}
+
+.bottom_body_element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b2f1b1;
+    width: 100%;
+    height: 15%;
+}
+
+.main_info_element {
+    width: 87%;
+    height: 80%;
+    background-image: url("images/bg-about.png");
+    border: 0.5vw groove #b2f1b1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.title_slider {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.info_slider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 1vw;
+}
+
+
+.close_button {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 20px;
+    height: 20px;
+}
+
+.option_bottom_element {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkbox_element {
+}
+
+.element_hidden {
+    display: none;
+}
+
+.switch_element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slider_points {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    position: relative;
+}
+
+.slider_points span {
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin-left: 0.15vw;
+    margin-right: 0.15vw;
+}
+
+.slider_points span:hover {
+    background: rgba(189, 30, 30, 0.53);
+}
+
+.selected_point_on {
+    background: #FFF;
+}
+
+.element_arrow {
+    position: relative;
+    cursor: pointer;
+}
+
+.left_arrow {
+}
+
+.right_arrow {
+    transform: rotate(180deg);
+}
